@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Car Showroom Database</title>
+</head>
+<body>
+    <h1>CAR SHOWROOM DATABASE</h1>
+    <hr>
+    <form>
+        <div class="form-row">
+          <div class="col">
+            <input id="model" type="text" class="form-control" placeholder="Car Model">
+          </div>
+          <div class="col">
+            <input id="color" type="text" class="form-control" placeholder="Car color">
+          </div>
+        </div>
+      </form>
+      <form>
+        <div class="form-row">
+          <div class="col">
+            <input id="price" type="text" class="form-control" placeholder="Price(INR)">
+          </div>
+          <div class="col">
+            <input id="qua" type="text" class="form-control" placeholder="Total no of cars">
+          </div>
+        </div>
+      </form>
+      <br>
+      <input class="btn btn-info" type="submit" placeholder="Submit" onclick="submission()">
+      <script src="main.js"></script>
+      <table id="database">
+          <tr> 
+              <th>Sr.No</th>
+              <th>Car Model</th>
+              <th>Color</th>
+              <th>Price</th>
+              <th>Quantity</th>
+          </tr>
+      </table>
+</body>
+</html>
